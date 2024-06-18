@@ -2,7 +2,6 @@
   background-color: white;
   width: 45%;
   margin: 50px auto;
- 
   padding: 40px;
   border-radius: 10px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
@@ -13,10 +12,27 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  
+  
 }
 
 .addUserForm .inputGroup label {
   margin-top: 10px;
+}
+
+.citySelect {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #554e4e;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+
+}
+
+
+.addUserForm .citySelect option {
+  color: #1b1515; /* Warna teks untuk opsi */
 }
 
 .addUserForm .inputGroup input {

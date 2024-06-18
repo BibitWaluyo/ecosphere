@@ -9,6 +9,7 @@ import Edukasi from "./pages/Edukasi";
 import Kampanye from "./pages/Kampanye";
 import Masuk from './pages/Masuk';
 import Daftar from './pages/Daftar';
+import Page1 from './pages/PageKampanye/Page1';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/tentang kita" Component={TentangKita}/>
         <Route path="/masuk" element={<Masuk />} />
         <Route path="/daftar" element={<Daftar />} />     
+        <Route path="/page1" element={<Page1 />} /> 
       </Routes>
     
     <Footer/>

@@ -1,4 +1,4 @@
-import {Container, Row, Col, Modal} from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 import HeroImage from "../assets/img/anime.svg";
 import myImage from '../assets/img/bg-beranda.png';
 import iconImage from '../assets/img/Logo partner.png';

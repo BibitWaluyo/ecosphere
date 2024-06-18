@@ -37,14 +37,11 @@ const Modals = () => {
             title_1: `Bersama-sama Menuju Lingkungan yang Lebih Bersih: Mengikuti Event Pembersihan Area Umum
 
 Di tengah kesadaran akan pentingnya menjaga kebersihan lingkungan, semakin banyak komunitas dan individu yang bergerak untuk memberikan kontribusi positif bagi alam sekitar. Salah satu upaya nyata dalam menjaga kebersihan lingkungan adalah melalui kegiatan pembersihan area umum. Sebagai bagian dari komitmen untuk berkontribusi dalam menjaga alam, komunitas lingkungan menggelar event simpel yang mengajak kita bersama-sama membersihkan area umum.
-
 Event ini bukan sekadar kegiatan membersihkan sampah di lingkungan sekitar, tetapi juga merupakan ajang untuk memperkuat ikatan antara masyarakat dengan alam sekitar. Kegiatan ini dilaksanakan dengan semangat gotong royong dan kepedulian bersama untuk menciptakan lingkungan yang lebih bersih, sehat, dan nyaman untuk semua.
-
 Misi Pembersihan Lingkungan
 1. Membersihkan Sampah di Area Umum: Peserta event bekerja sama membersihkan sampah-sampah yang tercecer di area publik seperti taman, pantai, sungai, atau jalanan. Hal ini tidak hanya mencakup sampah-sampah plastik yang seringkali menjadi masalah utama, tetapi juga sampah-sampah organik dan anorganik lainnya.
 2. Edukasi Tentang Dampak Sampah terhadap Lingkungan: Selain membersihkan sampah, event ini juga mengedukasi masyarakat tentang dampak negatif sampah terhadap lingkungan. Mulai dari bahaya plastik bagi satwa laut hingga pentingnya daur ulang dalam mengurangi limbah.
 3. Mendorong Partisipasi Aktif Masyarakat: Partisipasi dalam event ini menggalang dukungan dan keterlibatan aktif masyarakat dalam menjaga kebersihan lingkungan sehari-hari. Hal ini diharapkan dapat menjadi gerakan yang berkelanjutan di lingkungan sekitar.
-
 Dampak Positif dari Event Pembersihan Lingkungan
 1. Lingkungan yang Lebih Bersih dan Sehat: Melalui kegiatan ini, area umum menjadi lebih bersih dan sehat, memberikan manfaat langsung bagi masyarakat dan alam sekitar.
 2. Kesadaran Lingkungan yang Meningkat: Event ini juga berkontribusi dalam meningkatkan kesadaran masyarakat akan pentingnya menjaga kebersihan lingkungan dan merawat alam.

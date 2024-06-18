@@ -2,8 +2,19 @@ import React from "react";
 import "./Daftar.css";
 import { Link } from "react-router-dom";
 
-
-
+const cities = [
+  "Jakarta",
+  "Surabaya",
+  "Bandung",
+  "Medan",
+  "Bekasi",
+  "Semarang",
+  "Tangerang",
+  "Depok",
+  "Palembang",
+  "Bogor",
+  // Tambahkan lebih banyak kota sesuai kebutuhan
+];
 
 const Daftar = () => {
   return (
@@ -12,7 +23,7 @@ const Daftar = () => {
       <h6>Ayo daftarkan dirimu disini!!!</h6>
       <form className="addUserForm">
         <div className="inputGroup">
-          <label htmlFor="name " className="wm">Nama Lengkap:</label>
+          <label htmlFor="name" className="wm">Nama Lengkap:</label>
           <input
             type="text"
             id="name"
@@ -21,13 +32,14 @@ const Daftar = () => {
             placeholder="Masukan Nama Lengkap"
           />
           <label htmlFor="city" className="wm">Kota asal:</label>
-          <input
-            type="kota asal"
-            id="city"
-            name="kota asal"
-            autoComplete="off"
-            placeholder="Pilih Kota asal"
-          />
+          <select id="city" name="city" className="citySelect">
+            <option value=""  >Pilih Kota asal</option>
+            {cities.map((city, index) => (
+              <option key={index} value={city}>
+                {city}
+              </option>
+            ))}
+          </select>
           <label htmlFor="email" className="wm">Email:</label>
           <input
             type="email"
@@ -36,23 +48,22 @@ const Daftar = () => {
             autoComplete="off"
             placeholder="Masukan Email"
           />
-           <div className="justify-content-end d-flex">
-          <button type="submit" class="btn btn-outline-success text-black" href="/Masuk">
-            Daftar
-          </button>
+          <div className="justify-content-end d-flex">
+            <button type="submit" className="btn btn-outline-success text-black">
+              Daftar
+            </button>
           </div>
         </div>
       </form>
       <div className="login">
         <p className="text">Sudah punya akun? 
-        <Link to="/Masuk" type="submit" class="text">
-          Masuk
-        </Link>
+          <Link to="/Masuk" className="text">
+            Masuk
+          </Link>
         </p>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default Daftar
+export default Daftar;
