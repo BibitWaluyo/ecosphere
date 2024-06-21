@@ -10,6 +10,11 @@ import Kampanye from "./pages/Kampanye";
 import Masuk from './pages/Masuk';
 import Daftar from './pages/Daftar';
 import Page1 from './pages/PageKampanye/Page1';
+import Page2 from './pages/PageKampanye/Page2';
+import Page3 from './pages/PageKampanye/Page3';
+import Page4 from './pages/PageKampanye/Page4';
+import Page5 from './pages/PageKampanye/Page5';
+import Page6 from './pages/PageKampanye/Page6';
 
 
 
@@ -28,6 +33,11 @@ function App() {
         <Route path="/masuk" element={<Masuk />} />
         <Route path="/daftar" element={<Daftar />} />     
         <Route path="/page1" element={<Page1 />} /> 
+        <Route path="/page2" element={<Page2 />} /> 
+        <Route path="/page3" element={<Page3 />} /> 
+        <Route path="/page4" element={<Page4 />} /> 
+        <Route path="/page5" element={<Page5 />} /> 
+        <Route path="/page6" element={<Page6 />} /> 
       </Routes>
     
     <Footer/>

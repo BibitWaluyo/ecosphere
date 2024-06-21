@@ -1,21 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './SwiperKampanye.css';
 import { Modal, Button } from 'react-bootstrap';
-
+import { useNavigate } from 'react-router-dom';
 
 const SwiperKampanye = ({ data, title }) => {
   const [show, setShow] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
-
+  const navigate = useNavigate();
 
   const handleClose = () => setShow(false);
   const handleShow = (item) => {
     setSelectedItem(item);
     setShow(true);
+  };
+
+  const handleNavigate = () => {
+    if (selectedItem) {
+      setShow(false);
+      navigate(selectedItem.page);
+    }
   };
 
   return (
@@ -61,14 +68,15 @@ const SwiperKampanye = ({ data, title }) => {
               alt={selectedItem.title}
               className="img-fluid mb-3"
             />
-            {/* Add any additional content here */}
             <p>Deskripsi atau informasi lebih lanjut mengenai kampanye ini.</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-          
+            <Button variant="primary" onClick={handleNavigate}>
+              Go to 
+            </Button>
           </Modal.Footer>
         </Modal>
       )}

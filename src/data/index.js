@@ -23,6 +23,8 @@ import KampanyeImage5 from "../assets/img/kampanye/content5.png";
 import KampanyeImage6 from "../assets/img/kampanye/content6.png";
 import { Button } from "react-bootstrap";
 
+import Page2 from "../pages/PageKampanye/Page2";
+
 export const navLinks = [
   {
     id: 1,
@@ -144,19 +146,19 @@ export const KampanyeData = [
     id: 1,
     title: "Mendukung Akses Air Bersih",
     image: ContentImage1,
-    Button: "#"
+    page: "/page1"
   },
   {
     id: 2,
     title: "Cintai Alam dan Cegah Abrasi dengan Mangrove",
     image: ContentImage2,
-    Button: "#"
+    page: "/page2"
   },
   {
     id: 3,
     title: "Pengelolaan Sumberdaya Alam dan Lingkungan Hidup",
     image: ContentImage3,
-    Button: "#"
+    page: "/page3"
   },
  
 ];
@@ -167,19 +169,19 @@ export const Data = [
   id: 4,
   title: "Aksi bersih sungai ",
   image: KampanyeImage4,
-  Button: "#"
+  page: "/page4"
 },
 {
   id: 5,
   title: "Selamatkan Laut Selamatkan Samudra",
   image: KampanyeImage5,
-  Button: "#"
+  page: "/page5"
 },
 {
   id: 6,
   title: "Mari bersatu demi menjaga kota agar tetap bersih",
   image: KampanyeImage6,
-  Button: "#"
+  page: "/page6"
 },
 ]
 

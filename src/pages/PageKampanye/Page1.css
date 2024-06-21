@@ -1,0 +1,101 @@
+.page1-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .page1-header {
+    position: relative;
+    text-align: center;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .header-content {
+    height: 10%;
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+  }
+  
+  .content-image {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    size: 50%;
+
+  }
+  
+  .button-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .join-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: absolute;
+  right: 20px; /* Adjust the right distance as needed */
+  bottom: 40px; /* Adjust the bottom distance as needed */
+
+}
+
+  
+  .hashtag-section, .organizer-section, .followers-section {
+    margin-bottom: 10px;
+  }
+  
+  .description-section {
+    margin: 20px 0;
+  }
+  
+  .stats-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .actions-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .action-item {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .gallery-section {
+    margin: 20px 0;
+  }
+  
+  .gallery-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .gallery-items img {
+    width: 30%;
+    height: auto;
+  }
+  
