@@ -21,9 +21,7 @@ const Edukasi = () => {
                       Dengan edukasi yang tepat, kita dapat mengubah sampah
                       menjadi sumber daya yang berharga.
                     </p>
-                    <Link to="/pengaduan1">
-                      <Button variant="primary">Pelajari Lebih Lanjut</Button>
-                    </Link>
+                
                   </div>
                 </Col>
                 <Col lg={6}>

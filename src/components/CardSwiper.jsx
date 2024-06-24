@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import './CardSwiper.css';
 
 const CardSwiper = ({ data, title }) => {
+  
   return (
     <div className="card-swiper">
       <h2 className="section-title">{title}</h2>

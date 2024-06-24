@@ -22,9 +22,10 @@ import KampanyeImage4 from "../assets/img/kampanye/content4.png";
 import KampanyeImage5 from "../assets/img/kampanye/content5.png";
 import KampanyeImage6 from "../assets/img/kampanye/content6.png";
 import { Button } from "react-bootstrap";
+import EdukasiPage from "../pages/EdukasiPage/EdukasiPage";
 
-import Page2 from "../pages/PageKampanye/Page2";
-import Pengaduan1 from "../pages/PageEdukasi/Pengaduan1";
+
+
 
 export const navLinks = [
   {
@@ -93,7 +94,7 @@ export const ecoEduData = [
     title: "Pengenalan Sampah",
     description: "Pahami berbagai jenis sampah yang ada di sekitar kita.",
     image: EduImage1,
-    Pengaduan1: "/pengaduan1"
+    EdukasiPage: "/edukasipage"
   },
   {
     id: 2,
