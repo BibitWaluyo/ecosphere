@@ -24,6 +24,7 @@ import KampanyeImage6 from "../assets/img/kampanye/content6.png";
 import { Button } from "react-bootstrap";
 
 import Page2 from "../pages/PageKampanye/Page2";
+import Pengaduan1 from "../pages/PageEdukasi/Pengaduan1";
 
 export const navLinks = [
   {
@@ -92,7 +93,7 @@ export const ecoEduData = [
     title: "Pengenalan Sampah",
     description: "Pahami berbagai jenis sampah yang ada di sekitar kita.",
     image: EduImage1,
-    Button: "#"
+    Pengaduan1: "/pengaduan1"
   },
   {
     id: 2,

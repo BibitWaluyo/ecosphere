@@ -6,6 +6,9 @@ import grup from "../../assets/img/kampanye/Group 2229.png";
 import fol from "../../assets/img/kampanye/Ellipse 124.png";
 import folow from '../../assets/img/Logo partner.png';
 import folo from '../../assets/img/bg-beranda.png';
+import icon from '../../assets/img/kampanye/Vector.png';
+import Opini from '../../assets/img/kampanye/proyek.png';
+import pengaturan from '../../assets/img/kampanye/pengaturan.png';
 const Page1 = () => {
   return (
     <div className="page1-container  ">
@@ -58,15 +61,17 @@ sambil membawa jeriken berat setiap hari untuk mendapatkan air bersih.</p>
       </section>
       <section className="actions-section">
         <div className="action-item">
-          <img src="path/to/action-icon1.png" alt="Action 1" />
-          <p>Description of Action 1</p>
+          <img src={icon} alt="Action 1" />
+          <h1>Menyebar Informasi</h1>
+          <p>Foto/video informasi yang kamu temukan dan baca mengenai air bersih</p>
         </div>
         <div className="action-item">
-          <img src="path/to/action-icon2.png" alt="Action 2" />
-          <p>Description of Action 2</p>
+          <img src={Opini} alt="Action 2" />
+          <h1>Opini</h1>
+          <p>Foto tulisanmu tentang bagaimana pemerintah dapat membantu akses air bersih di NTT</p>
         </div>
         <div className="action-item">
-          <img src="path/to/action-icon3.png" alt="Action 3" />
+          <img src={pengaturan} alt="Action 3" />
           <p>Description of Action 3</p>
         </div>
       </section>

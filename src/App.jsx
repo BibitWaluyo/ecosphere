@@ -15,6 +15,8 @@ import Page3 from './pages/PageKampanye/Page3';
 import Page4 from './pages/PageKampanye/Page4';
 import Page5 from './pages/PageKampanye/Page5';
 import Page6 from './pages/PageKampanye/Page6';
+import Pengaduan1 from './pages/PageEdukasi/Pengaduan1';
+
 
 
 
@@ -38,6 +40,7 @@ function App() {
         <Route path="/page4" element={<Page4 />} /> 
         <Route path="/page5" element={<Page5 />} /> 
         <Route path="/page6" element={<Page6 />} /> 
+        <Route path="/pengaduan1" element={<Pengaduan1 />} /> 
       </Routes>
     
     <Footer/>
